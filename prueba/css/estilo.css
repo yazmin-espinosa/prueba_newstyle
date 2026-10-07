@@ -1,0 +1,133 @@
+:root {
+  --color-primario: #c58c82;
+  --color-secundario: #a3756c;
+  --color-de-fondo: #ffffff;
+  --color-4: #666666;
+  --color-5: #333333;
+}
+
+#mi_boton{
+    background-color: var(--color-4); 
+    color: #ffffff; 
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#mi_boton2{
+    background-color: blueviolet;
+    color: violet;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: var(--color-primario);
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--color-secundario);
+    cursor: pointer;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.6;
+    color: var(--color-4);
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.destacado {
+    color: var(--color-primario);
+    font-style: italic;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#parrafo_1 {
+    background-color: transparent;
+    padding: 0;
+    color: var(--color-4);
+    font-size: 15px;
+}
+
+nav p {
+    font-size: 24px;
+    color: blanchedalmond;
+}
+
+body {
+    padding: 20px 40px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    color: #333333;
+}
+
+input::placeholder {
+    color: #b0b0b0;
+}
+
+.olvidaste a {
+    color: var(--color-primario);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#parrafo_2 {
+    color: var(--color-4);
+    font-size: 14px;
+}
+
+#parrafo_2 a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
